@@ -1,0 +1,945 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140E5681267DAE57000932BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E5680267DAE57000932BB /* AppDelegate.swift */; };
+		140E5683267DAE57000932BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E5682267DAE57000932BB /* SceneDelegate.swift */; };
+		140E5686267DAE57000932BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140E5684267DAE57000932BB /* LaunchScreen.storyboard */; };
+		140E5689267DAE57000932BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140E5687267DAE57000932BB /* Main.storyboard */; };
+		140E5692267DAE57000932BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E5691267DAE57000932BB /* AppDelegate.swift */; };
+		140E5695267DAE57000932BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140E5693267DAE57000932BB /* Main.storyboard */; };
+		140E569D267DAE57000932BB /* Read It Later Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 140E569C267DAE57000932BB /* Read It Later Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		140E56A7267DAE57000932BB /* Read It Later Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 140E56A6267DAE57000932BB /* Read It Later Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		140E56AC267DAE57000932BB /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 140E5670267DAE56000932BB /* Main.html */; };
+		140E56AD267DAE57000932BB /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 140E5670267DAE56000932BB /* Main.html */; };
+		140E56AE267DAE57000932BB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 140E5672267DAE56000932BB /* Icon.png */; };
+		140E56AF267DAE57000932BB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 140E5672267DAE56000932BB /* Icon.png */; };
+		140E56B0267DAE57000932BB /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 140E5673267DAE56000932BB /* Style.css */; };
+		140E56B1267DAE57000932BB /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 140E5673267DAE56000932BB /* Style.css */; };
+		140E56B2267DAE57000932BB /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 140E5674267DAE56000932BB /* Script.js */; };
+		140E56B3267DAE57000932BB /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 140E5674267DAE56000932BB /* Script.js */; };
+		140E56B4267DAE57000932BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E5675267DAE56000932BB /* ViewController.swift */; };
+		140E56B5267DAE57000932BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E5675267DAE56000932BB /* ViewController.swift */; };
+		140E56B6267DAE57000932BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140E5676267DAE57000932BB /* Assets.xcassets */; };
+		140E56B7267DAE57000932BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140E5676267DAE57000932BB /* Assets.xcassets */; };
+		140E56B8267DAE57000932BB /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E5678267DAE57000932BB /* SafariWebExtensionHandler.swift */; };
+		140E56B9267DAE57000932BB /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E5678267DAE57000932BB /* SafariWebExtensionHandler.swift */; };
+		140E56D3267DAE57000932BB /* default.html in Resources */ = {isa = PBXBuildFile; fileRef = 140E56CB267DAE57000932BB /* default.html */; };
+		140E56D5267DAE57000932BB /* icon-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 140E56CD267DAE57000932BB /* icon-light.png */; };
+		140E56D6267DAE57000932BB /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 140E56CE267DAE57000932BB /* options.js */; };
+		140E56D9267DAE57000932BB /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 140E56D1267DAE57000932BB /* options.html */; };
+		140E56DA267DAE57000932BB /* default.js in Resources */ = {isa = PBXBuildFile; fileRef = 140E56D2267DAE57000932BB /* default.js */; };
+		140E56DB267DAE57000932BB /* default.html in Resources */ = {isa = PBXBuildFile; fileRef = 140E56CB267DAE57000932BB /* default.html */; };
+		140E56DD267DAE57000932BB /* icon-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 140E56CD267DAE57000932BB /* icon-light.png */; };
+		140E56DE267DAE57000932BB /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 140E56CE267DAE57000932BB /* options.js */; };
+		140E56E1267DAE57000932BB /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 140E56D1267DAE57000932BB /* options.html */; };
+		140E56E2267DAE57000932BB /* default.js in Resources */ = {isa = PBXBuildFile; fileRef = 140E56D2267DAE57000932BB /* default.js */; };
+		14341FE9267DAF8100FCBD1F /* icon-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 14341FE8267DAF8100FCBD1F /* icon-dark.png */; };
+		14341FEA267DAF8100FCBD1F /* icon-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 14341FE8267DAF8100FCBD1F /* icon-dark.png */; };
+		147AE59D267DB25D00104D0B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 147AE59C267DB25D00104D0B /* manifest.json */; };
+		147AE59E267DB25D00104D0B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 147AE59C267DB25D00104D0B /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		140E569E267DAE57000932BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 140E566A267DAE56000932BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 140E569B267DAE57000932BB;
+			remoteInfo = "Read It Later Extension (iOS)";
+		};
+		140E56A8267DAE57000932BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 140E566A267DAE56000932BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 140E56A5267DAE57000932BB;
+			remoteInfo = "Read It Later Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		140E56BF267DAE57000932BB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				140E569D267DAE57000932BB /* Read It Later Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140E56C6267DAE57000932BB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				140E56A7267DAE57000932BB /* Read It Later Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		140E5671267DAE56000932BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		140E5672267DAE56000932BB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		140E5673267DAE56000932BB /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		140E5674267DAE56000932BB /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		140E5675267DAE56000932BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		140E5676267DAE57000932BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		140E5678267DAE57000932BB /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		140E567D267DAE57000932BB /* Read It Later.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Read It Later.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		140E5680267DAE57000932BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		140E5682267DAE57000932BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		140E5685267DAE57000932BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		140E5688267DAE57000932BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		140E568A267DAE57000932BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140E568F267DAE57000932BB /* Read It Later.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Read It Later.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		140E5691267DAE57000932BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		140E5694267DAE57000932BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		140E5696267DAE57000932BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140E5697267DAE57000932BB /* Read It Later.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Read It Later.entitlements"; sourceTree = "<group>"; };
+		140E569C267DAE57000932BB /* Read It Later Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Read It Later Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		140E56A1267DAE57000932BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140E56A6267DAE57000932BB /* Read It Later Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Read It Later Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		140E56AB267DAE57000932BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140E56CB267DAE57000932BB /* default.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = default.html; path = "../../ReadItLater-Chrome/default.html"; sourceTree = "<group>"; };
+		140E56CD267DAE57000932BB /* icon-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-light.png"; path = "../../ReadItLater-Chrome/icon-light.png"; sourceTree = "<group>"; };
+		140E56CE267DAE57000932BB /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = "../../ReadItLater-Chrome/options.js"; sourceTree = "<group>"; };
+		140E56D1267DAE57000932BB /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = "../../ReadItLater-Chrome/options.html"; sourceTree = "<group>"; };
+		140E56D2267DAE57000932BB /* default.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = default.js; path = "../../ReadItLater-Chrome/default.js"; sourceTree = "<group>"; };
+		14341FE8267DAF8100FCBD1F /* icon-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-dark.png"; path = "../../ReadItLater-Chrome/icon-dark.png"; sourceTree = "<group>"; };
+		147AE59C267DB25D00104D0B /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		140E567A267DAE57000932BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140E568C267DAE57000932BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140E5699267DAE57000932BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140E56A3267DAE57000932BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		140E5669267DAE56000932BB = {
+			isa = PBXGroup;
+			children = (
+				140E566E267DAE56000932BB /* Shared (App) */,
+				140E5677267DAE57000932BB /* Shared (Extension) */,
+				140E567F267DAE57000932BB /* iOS (App) */,
+				140E5690267DAE57000932BB /* macOS (App) */,
+				140E56A0267DAE57000932BB /* iOS (Extension) */,
+				140E56AA267DAE57000932BB /* macOS (Extension) */,
+				140E567E267DAE57000932BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		140E566E267DAE56000932BB /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				140E5675267DAE56000932BB /* ViewController.swift */,
+				140E5676267DAE57000932BB /* Assets.xcassets */,
+				140E566F267DAE56000932BB /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		140E566F267DAE56000932BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				140E5670267DAE56000932BB /* Main.html */,
+				140E5672267DAE56000932BB /* Icon.png */,
+				140E5673267DAE56000932BB /* Style.css */,
+				140E5674267DAE56000932BB /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		140E5677267DAE57000932BB /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				140E56CA267DAE57000932BB /* Resources */,
+				140E5678267DAE57000932BB /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		140E567E267DAE57000932BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				140E567D267DAE57000932BB /* Read It Later.app */,
+				140E568F267DAE57000932BB /* Read It Later.app */,
+				140E569C267DAE57000932BB /* Read It Later Extension.appex */,
+				140E56A6267DAE57000932BB /* Read It Later Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		140E567F267DAE57000932BB /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				140E5680267DAE57000932BB /* AppDelegate.swift */,
+				140E5682267DAE57000932BB /* SceneDelegate.swift */,
+				140E5684267DAE57000932BB /* LaunchScreen.storyboard */,
+				140E5687267DAE57000932BB /* Main.storyboard */,
+				140E568A267DAE57000932BB /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		140E5690267DAE57000932BB /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				140E5691267DAE57000932BB /* AppDelegate.swift */,
+				140E5693267DAE57000932BB /* Main.storyboard */,
+				140E5696267DAE57000932BB /* Info.plist */,
+				140E5697267DAE57000932BB /* Read It Later.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		140E56A0267DAE57000932BB /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				140E56A1267DAE57000932BB /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		140E56AA267DAE57000932BB /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				140E56AB267DAE57000932BB /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		140E56CA267DAE57000932BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				147AE59C267DB25D00104D0B /* manifest.json */,
+				140E56CB267DAE57000932BB /* default.html */,
+				140E56CD267DAE57000932BB /* icon-light.png */,
+				14341FE8267DAF8100FCBD1F /* icon-dark.png */,
+				140E56CE267DAE57000932BB /* options.js */,
+				140E56D1267DAE57000932BB /* options.html */,
+				140E56D2267DAE57000932BB /* default.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		140E567C267DAE57000932BB /* Read It Later (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140E56C0267DAE57000932BB /* Build configuration list for PBXNativeTarget "Read It Later (iOS)" */;
+			buildPhases = (
+				140E5679267DAE57000932BB /* Sources */,
+				140E567A267DAE57000932BB /* Frameworks */,
+				140E567B267DAE57000932BB /* Resources */,
+				140E56BF267DAE57000932BB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				140E569F267DAE57000932BB /* PBXTargetDependency */,
+			);
+			name = "Read It Later (iOS)";
+			productName = "Read It Later (iOS)";
+			productReference = 140E567D267DAE57000932BB /* Read It Later.app */;
+			productType = "com.apple.product-type.application";
+		};
+		140E568E267DAE57000932BB /* Read It Later (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140E56C7267DAE57000932BB /* Build configuration list for PBXNativeTarget "Read It Later (macOS)" */;
+			buildPhases = (
+				140E568B267DAE57000932BB /* Sources */,
+				140E568C267DAE57000932BB /* Frameworks */,
+				140E568D267DAE57000932BB /* Resources */,
+				140E56C6267DAE57000932BB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				140E56A9267DAE57000932BB /* PBXTargetDependency */,
+			);
+			name = "Read It Later (macOS)";
+			productName = "Read It Later (macOS)";
+			productReference = 140E568F267DAE57000932BB /* Read It Later.app */;
+			productType = "com.apple.product-type.application";
+		};
+		140E569B267DAE57000932BB /* Read It Later Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140E56BC267DAE57000932BB /* Build configuration list for PBXNativeTarget "Read It Later Extension (iOS)" */;
+			buildPhases = (
+				140E5698267DAE57000932BB /* Sources */,
+				140E5699267DAE57000932BB /* Frameworks */,
+				140E569A267DAE57000932BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Read It Later Extension (iOS)";
+			productName = "Read It Later Extension (iOS)";
+			productReference = 140E569C267DAE57000932BB /* Read It Later Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		140E56A5267DAE57000932BB /* Read It Later Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140E56C3267DAE57000932BB /* Build configuration list for PBXNativeTarget "Read It Later Extension (macOS)" */;
+			buildPhases = (
+				140E56A2267DAE57000932BB /* Sources */,
+				140E56A3267DAE57000932BB /* Frameworks */,
+				140E56A4267DAE57000932BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Read It Later Extension (macOS)";
+			productName = "Read It Later Extension (macOS)";
+			productReference = 140E56A6267DAE57000932BB /* Read It Later Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		140E566A267DAE56000932BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					140E567C267DAE57000932BB = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					140E568E267DAE57000932BB = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					140E569B267DAE57000932BB = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					140E56A5267DAE57000932BB = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 140E566D267DAE56000932BB /* Build configuration list for PBXProject "Read It Later" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 140E5669267DAE56000932BB;
+			productRefGroup = 140E567E267DAE57000932BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				140E567C267DAE57000932BB /* Read It Later (iOS) */,
+				140E568E267DAE57000932BB /* Read It Later (macOS) */,
+				140E569B267DAE57000932BB /* Read It Later Extension (iOS) */,
+				140E56A5267DAE57000932BB /* Read It Later Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		140E567B267DAE57000932BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140E56AE267DAE57000932BB /* Icon.png in Resources */,
+				140E5686267DAE57000932BB /* LaunchScreen.storyboard in Resources */,
+				140E56AC267DAE57000932BB /* Main.html in Resources */,
+				140E56B2267DAE57000932BB /* Script.js in Resources */,
+				140E56B6267DAE57000932BB /* Assets.xcassets in Resources */,
+				140E5689267DAE57000932BB /* Main.storyboard in Resources */,
+				140E56B0267DAE57000932BB /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140E568D267DAE57000932BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140E56AF267DAE57000932BB /* Icon.png in Resources */,
+				140E56B1267DAE57000932BB /* Style.css in Resources */,
+				140E5695267DAE57000932BB /* Main.storyboard in Resources */,
+				140E56B3267DAE57000932BB /* Script.js in Resources */,
+				140E56B7267DAE57000932BB /* Assets.xcassets in Resources */,
+				140E56AD267DAE57000932BB /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140E569A267DAE57000932BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14341FE9267DAF8100FCBD1F /* icon-dark.png in Resources */,
+				140E56E1267DAE57000932BB /* options.html in Resources */,
+				140E56DD267DAE57000932BB /* icon-light.png in Resources */,
+				140E56E2267DAE57000932BB /* default.js in Resources */,
+				147AE59D267DB25D00104D0B /* manifest.json in Resources */,
+				140E56DE267DAE57000932BB /* options.js in Resources */,
+				140E56DB267DAE57000932BB /* default.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140E56A4267DAE57000932BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14341FEA267DAF8100FCBD1F /* icon-dark.png in Resources */,
+				140E56D9267DAE57000932BB /* options.html in Resources */,
+				140E56D5267DAE57000932BB /* icon-light.png in Resources */,
+				140E56DA267DAE57000932BB /* default.js in Resources */,
+				147AE59E267DB25D00104D0B /* manifest.json in Resources */,
+				140E56D6267DAE57000932BB /* options.js in Resources */,
+				140E56D3267DAE57000932BB /* default.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		140E5679267DAE57000932BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140E56B4267DAE57000932BB /* ViewController.swift in Sources */,
+				140E5681267DAE57000932BB /* AppDelegate.swift in Sources */,
+				140E5683267DAE57000932BB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140E568B267DAE57000932BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140E56B5267DAE57000932BB /* ViewController.swift in Sources */,
+				140E5692267DAE57000932BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140E5698267DAE57000932BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140E56B8267DAE57000932BB /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140E56A2267DAE57000932BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140E56B9267DAE57000932BB /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		140E569F267DAE57000932BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 140E569B267DAE57000932BB /* Read It Later Extension (iOS) */;
+			targetProxy = 140E569E267DAE57000932BB /* PBXContainerItemProxy */;
+		};
+		140E56A9267DAE57000932BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 140E56A5267DAE57000932BB /* Read It Later Extension (macOS) */;
+			targetProxy = 140E56A8267DAE57000932BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		140E5670267DAE56000932BB /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				140E5671267DAE56000932BB /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		140E5684267DAE57000932BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				140E5685267DAE57000932BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		140E5687267DAE57000932BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				140E5688267DAE57000932BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		140E5693267DAE57000932BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				140E5694267DAE57000932BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		140E56BA267DAE57000932BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		140E56BB267DAE57000932BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		140E56BD267DAE57000932BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Read It Later";
+				INFOPLIST_KEY_CFBundleExecutable = "Read It Later Extension";
+				INFOPLIST_KEY_CFBundleName = "Read It Later Extension";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sg.readitlater.extension;
+				PRODUCT_NAME = "Read It Later Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		140E56BE267DAE57000932BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Read It Later";
+				INFOPLIST_KEY_CFBundleExecutable = "Read It Later Extension";
+				INFOPLIST_KEY_CFBundleName = "Read It Later Extension";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sg.readitlater.extension;
+				PRODUCT_NAME = "Read It Later Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		140E56C1267DAE57000932BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Read It Later";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sg.readitlater;
+				PRODUCT_NAME = "Read It Later";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		140E56C2267DAE57000932BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Read It Later";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sg.readitlater;
+				PRODUCT_NAME = "Read It Later";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		140E56C4267DAE57000932BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Read It Later Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sg.readitlater.extension;
+				PRODUCT_NAME = "Read It Later Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		140E56C5267DAE57000932BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Read It Later Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sg.readitlater.extension;
+				PRODUCT_NAME = "Read It Later Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		140E56C8267DAE57000932BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Read It Later.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Read It Later";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sg.readitlater;
+				PRODUCT_NAME = "Read It Later";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		140E56C9267DAE57000932BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Read It Later.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Read It Later";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sg.readitlater;
+				PRODUCT_NAME = "Read It Later";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		140E566D267DAE56000932BB /* Build configuration list for PBXProject "Read It Later" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140E56BA267DAE57000932BB /* Debug */,
+				140E56BB267DAE57000932BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		140E56BC267DAE57000932BB /* Build configuration list for PBXNativeTarget "Read It Later Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140E56BD267DAE57000932BB /* Debug */,
+				140E56BE267DAE57000932BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		140E56C0267DAE57000932BB /* Build configuration list for PBXNativeTarget "Read It Later (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140E56C1267DAE57000932BB /* Debug */,
+				140E56C2267DAE57000932BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		140E56C3267DAE57000932BB /* Build configuration list for PBXNativeTarget "Read It Later Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140E56C4267DAE57000932BB /* Debug */,
+				140E56C5267DAE57000932BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		140E56C7267DAE57000932BB /* Build configuration list for PBXNativeTarget "Read It Later (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140E56C8267DAE57000932BB /* Debug */,
+				140E56C9267DAE57000932BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 140E566A267DAE56000932BB /* Project object */;
+}
